@@ -30,12 +30,12 @@ dependencies = ["msgspec>=0.18.0"]
 
 [dependency-groups]
 dev = [
-    "mypy[faster-cache]>=1.13.0",
-    "pre-commit>=4.0.1",
-    "pycases>=0.1.3",
-    "pytest>=8.3.3",
-    "ruff>=0.6.9",
-    "uv>=0.4.29",
+    "prek>=0.2.25,<0.3",
+    "py-anycase>=0.1.0,<0.2",
+    "pytest>=9.0.2,<9.1",
+    "ruff>=0.14.10,<0.15",
+    "ty>=0.0.8",
+    "uv>=0.9.18,<0.10",
 ]
 
 [tool.maturin]
@@ -72,7 +72,7 @@ select = [
     "PERF",
     "SLF",
     "PTH",
-    "TCH",
+    "TC",
     "PLC",
     "PLE",
     "PLR",
